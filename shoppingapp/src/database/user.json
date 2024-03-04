@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": "b6a1",
+      "name": "Raja Kumar",
+      "email": "raja@123",
+      "phone": "7654353456",
+      "pass": "12345678uh",
+      "image": "https://ih1.redbubble.net/image.1579944357.4525/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+    },
+    {
+      "id": "c0a1",
+      "name": "Raj",
+      "email": "raj@1234567",
+      "phone": "1234567884",
+      "pass": "de456yujhg",
+      "image": "234rfgy67yjm"
+    }
+  ],
+  "cart": [
+    {
+      "id": "7539",
+      "resname": "chill out",
+      "disname": "Samosha chat",
+      "quantity": "2",
+      "price": "60",
+      "rating": "5",
+      "image": "https://www.spicemountain.co.uk/wp-content/uploads/2019/10/samosa-chaat-1200x800.jpg",
+      "desc": "delicious",
+      "catagory": "Samosha Chat"
+    },
+    {
+      "id": "c23a",
+      "resname": "Royal restaurant",
+      "disname": "Gobi Manchurian",
+      "quantity": "1",
+      "price": "120",
+      "rating": "4",
+      "image": "https://atzone.in/wp-content/uploads/2017/11/Gobi-Manchurian-678x381.jpg",
+      "desc": "Chilli & spicy",
+      "catagory": "Gobi Manchurian"
+    }
+  ]
+}

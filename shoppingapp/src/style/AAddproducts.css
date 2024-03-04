@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.addItems {
+  display: flex;
+  justify-content: center;
+  transform: translateY(10%);
+}
+.addItems form {
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  border-radius: 0px 50px 0px 50px;
+  background: linear-gradient(250deg, rgb(178, 247, 5), rgb(5, 223, 247));
+  filter: drop-shadow(10px 10px 10px black);
+}
+.addItems input {
+  background-color: transparent;
+  margin: 10px 0px;
+  border: none;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  box-shadow: 4px 4px 6px black;
+}
+.addItems textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  box-shadow: 4px 4px 6px black;
+}
+.addItems select {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  box-shadow: 4px 4px 6px black;
+}
+.addItems form input::placeholder {
+  color: black;
+}
+.addItems form textarea::placeholder {
+  color: black;
+}
+.addItems button {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 0px 20px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 6px black;
+}
+.addItems button:hover {
+  color: greenyellow;
+}

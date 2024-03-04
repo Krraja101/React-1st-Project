@@ -1,0 +1,168 @@
+{
+  "manager": [
+    {
+      "id": "3808"
+    },
+    {
+      "id": "56d0",
+      "name": "raja",
+      "email": "raja@123",
+      "phone": "9876543210",
+      "password": "aqwe4",
+      "imageurl": "qwertyuio"
+    },
+    {
+      "id": "be54",
+      "name": "ajay",
+      "email": "ajay@123",
+      "phone": "7346483241",
+      "password": "dgfywt378",
+      "imageurl": "hdge84li4yue"
+    }
+  ],
+  "product": [
+    {
+      "resname": "Royal restaurant",
+      "disname": "Gobi Manchurian",
+      "quantity": "1",
+      "price": "120",
+      "rating": "4",
+      "image": "https://atzone.in/wp-content/uploads/2017/11/Gobi-Manchurian-678x381.jpg",
+      "desc": "Chilli & spicy",
+      "catagory": "Gobi Manchurian",
+      "id": "c23a"
+    },
+    {
+      "id": "7539",
+      "resname": "chill out",
+      "disname": "Samosha chat",
+      "quantity": "2",
+      "price": "60",
+      "rating": "5",
+      "image": "https://www.spicemountain.co.uk/wp-content/uploads/2019/10/samosa-chaat-1200x800.jpg",
+      "desc": "delicious",
+      "catagory": "Samosha Chat"
+    },
+    {
+      "id": "8aec",
+      "resname": "Baba chat",
+      "disname": "Aloo paratha",
+      "quantity": "2",
+      "price": "80",
+      "rating": "3",
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2020/08/aloo-paratha-recipe.jpg",
+      "desc": "Spicy",
+      "catagory": "Aloo paratha"
+    },
+    {
+      "id": "4038",
+      "resname": "baba chat",
+      "disname": "puri chat",
+      "quantity": "1",
+      "price": "50",
+      "rating": "5",
+      "image": "https://cdn.shopify.com/s/files/1/0517/4609/files/Puri_Bhaji.jpg?v=1649339044",
+      "desc": "contain 3 puri",
+      "catagory": "puri sabji"
+    },
+    {
+      "id": "c72b",
+      "resname": "lazabab",
+      "disname": "chowmin",
+      "quantity": "1",
+      "price": "70",
+      "rating": "3",
+      "image": "https://assets-global.website-files.com/60d34b8627f6e735cf28df18/637cb1642995dc1b77d1ea28_Chowmein%20Hero%204.3.jpg",
+      "desc": "garnished with cheese",
+      "catagory": "Chowmin veg"
+    },
+    {
+      "id": "4bd9",
+      "resname": "Chikku restaurent",
+      "disname": "sweet",
+      "quantity": "8",
+      "price": "120",
+      "rating": "5",
+      "image": "https://static.toiimg.com/photo/96538347.cms",
+      "desc": "Fresh & tasty",
+      "catagory": "Sweets"
+    },
+    {
+      "id": "d8a2",
+      "resname": "baba chat",
+      "disname": "kachori",
+      "quantity": "1",
+      "price": "30",
+      "rating": "5",
+      "image": "https://www.cookwithmanali.com/wp-content/uploads/2020/10/Raj-Kachori-Recipe-500x500.jpg",
+      "desc": "snacks",
+      "catagory": "stuffed kachori"
+    },
+    {
+      "id": "c07f",
+      "resname": "Chill out",
+      "disname": "burger",
+      "quantity": "1",
+      "price": "50",
+      "rating": "5",
+      "image": "https://www.tastingtable.com/img/gallery/what-makes-restaurant-burgers-taste-different-from-homemade-burgers-upgrade/intro-1662064407.jpg",
+      "desc": "snacks",
+      "catagory": "Burger"
+    },
+    {
+      "id": "4ade",
+      "resname": "Chill out",
+      "disname": "veg pizza",
+      "quantity": "1",
+      "price": "180",
+      "rating": "5",
+      "image": "https://www.dominos.co.in/blog/wp-content/uploads/2019/12/third.jpg",
+      "desc": "Delicious & Spicy",
+      "catagory": "Pizza"
+    },
+    {
+      "id": "3019",
+      "resname": "Chill out",
+      "disname": "veg roll",
+      "quantity": "1",
+      "price": "60",
+      "rating": "5",
+      "image": "https://spicecravings.com/wp-content/uploads/2020/12/Paneer-kathi-Roll-Featured-1-500x375.jpg",
+      "desc": "snacks",
+      "catagory": "Veg Roll"
+    },
+    {
+      "id": "d604",
+      "resname": "piper",
+      "disname": "veg sandwich",
+      "quantity": "1",
+      "price": "60",
+      "rating": "5",
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/03/veg-grilled-sandwich-recipe.jpg",
+      "desc": "snacks",
+      "catagory": "Sandwich"
+    },
+    {
+      "id": "4329",
+      "resname": "mannu cafe",
+      "disname": "paratha",
+      "quantity": "2",
+      "price": "60",
+      "rating": "5",
+      "image": "https://cdn.shopify.com/s/files/1/0512/2782/0191/files/93118384_s_600x600.jpg?v=1618311764",
+      "desc": "lunch meal",
+      "catagory": "Lachha paratha"
+    },
+    {
+      "id": "a080",
+      "resname": "piper",
+      "disname": "cold drink",
+      "quantity": "1",
+      "price": "100",
+      "rating": "5",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2023/3/296872949/ZZ/GG/BW/77999044/cold-drink-recipe-formulation.jpeg",
+      "desc": "soft drinks for party",
+      "catagory": "Cold drink"
+    }
+  ]
+}

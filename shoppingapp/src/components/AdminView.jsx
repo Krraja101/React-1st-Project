@@ -1,0 +1,93 @@
+import axios from "axios";
+import { useEffect, useState } from "react";
+import "../style/Adminview.css";
+import StarIcon from "@mui/icons-material/Star";
+import CurrencyRupeeIcon from "@mui/icons-material/CurrencyRupee";
+import EditIcon from "@mui/icons-material/Edit";
+import DeleteIcon from "@mui/icons-material/Delete";
+import { useNavigate } from "react-router-dom";
+const AdminView = () => {
+  let [data, setdata] = useState([]);
+  let [force, setforce] = useState(true);
+  let navigate = useNavigate("");
+
+  useEffect(() => {
+    axios
+      .get("http://localhost:1001/product")
+      .then((res) => {
+        setdata(res.data);
+      })
+      .catch((err) => {
+        console.log("errr");
+      });
+  }, [force]);
+
+  let removeDish = (id, dishname) => {
+    axios
+      .delete(`http://localhost:1001/product/${id}`)
+      .then((res) => {
+        alert(`${id} ${dishname} has been deleted succcessfully`);
+        setforce(!force);
+      })
+      .catch((error) => {
+        alert(`Failed to delete ${dishname}`);
+      });
+  };
+
+  function editpage(id) {
+    navigate(`/adminHomePage/editProduct/${id}`);
+  }
+
+  return (
+    <div className="adminview">
+      {data.map((x) => {
+        return (
+          <div className="viewdisplay">
+            <img src={x.image} height={300} alt="" /> <hr />
+            <div className="rest">
+              <h3>{x.resname}</h3>
+              <button>
+                {x.rating}
+                <span>
+                  {" "}
+                  <StarIcon />
+                </span>
+              </button>
+            </div>
+            <div className="catg">
+              <h5>{x.catagory} </h5>
+              <h5 id="pr">
+                <s>
+                  <CurrencyRupeeIcon />
+                  {x.price}
+                  {"    "}
+                </s>
+                <CurrencyRupeeIcon />
+                {x.price - (x.price * 20) / 100}
+              </h5>
+            </div>
+            <div className="edt">
+              <h6>{x.desc}</h6>
+              <button
+                onClick={() => {
+                  editpage(x.id);
+                }}
+              >
+                edit <EditIcon />
+              </button>
+              <button
+                onClick={() => {
+                  removeDish(x.id, x.disname);
+                }}
+              >
+                delete
+                <DeleteIcon />
+              </button>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+export default AdminView;
